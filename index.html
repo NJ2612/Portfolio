@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NJ's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Content</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      
+
+      <header class="text-center" style="background-color: rgb(145, 143, 141);">
+        <br><br><br><br>
+        <h1 class="display-4">Hello, I'm Naina Joshi</h1>
+        <p class="lead">A passionate Web Developer</p>
+        <br><br>
+      </header>
+
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/me.jpg" class="img-fluid rounded-circle" alt="My Image">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2><br>
+                <p>I am Naina Joshi, a first-year student at Graphic Era Hill University. I am pursuing my Bachelors in Technology . I am highly interested in web development as well as app development.Currently, I am working on brushing up my Web Development skills. However, I plan on switching to App development soon.</p>
+                <br>
+                <p> Speaking about my hobbies: </p>
+                <ul>
+                    <li>I have played badminton at school level and continue to play it in my free time.</li>
+                    <li>I often prefer reading books to give my eyes some break from the screen.</li>
+                    <li>I cycle, dance and busy myself in various activities.</li>
+                    <li>But above all these things, I love to code and design.</li><br>
+                </ul>
+            </div>
+        </div><br>
+    </section>
+    
+
+    <section id="project" style="background-color: rgba(111, 111, 113, 0.599);">
+        <br><h1 class="text-center"> PROJECTS</h1><br><br>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a href="https://stanlee-tribute-page.netlify.app" target="_blank" ><img src="img/pro.jpeg" class="img-fluid rounded-start" alt="..."></a>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Stan Lee Tribute Page</h5>
+                  <p class="card-text">The Stan Lee tribute page project honors the legendary comic book creator behind Marvel's iconic superheroes. It highlights his contributions to the comic book industry, his creative collaborations, and his lasting impact on popular culture, celebrating the imagination and legacy of a true visionary.</p>
+                  <a href="https://stanlee-tribute-page.netlify.app"><img src="img/logo.png" width="30px"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </section>
+
+
+    <section id="skills" >
+      <br><h1 class="text-center">SKILLS</h1>
+      <ul>
+        <br><li>HTML</li><br>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 50%"></div>
+      </div>
+      <br><li>CSS</li><br>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info" style="width: 50%"></div>
+      </div>
+      <br><li>C</li><br>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 50%"></div>
+      </div>
+      <br><li>Python</li><br>
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 50%"></div>
+      </div>
+    </ul><br>
+    </section>
+
+    <section id="contact" class="text-center" style="background-color: rgba(111, 111, 113, 0.599);">
+      <h1>CONTACT ME</h1>
+      <form action="https://form.taxi/s/cppkpju7" style="border: 2px;">
+        <label for="name">Full Name</label><br>
+
+        <input type="text" id="name" name="fname" value=""><br>
+        
+        <label for="email"> Email</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="text"> Enter Your Message</label><br>
+        <textarea name="msg" id="msg"></textarea><br><br>
+        <button type="submit">SUBMIT</button>
+      </form><BR>
+    </section>
+    
+    <footer class="text-center" style="background-color: rgb(48, 47, 47); color: beige;">
+      <h1>FOLLOW ME ON:</h1>
+      <a href="https://github.com/NJ2612"><img src="img/git.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/naina-joshi-221072301"><img src="img/link.png" alt=""></a>
+    </footer>
+
+</body>
+
+</html>
